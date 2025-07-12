@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic contact form </title>
+</head>
+<body style="background-image:url('/wl1.jpg'); background-size:cover" bgcolor="skyblue">
+    <div  style="width: 500px; margin: 0 auto; ">
+     <h1 style="color: rgb(0, 25, 107); " >Contact form</h1>
+     <p style="color:rgb(0, 25, 107); font-size:17px;">Please fill in your information and we will be your order on time </p> <br><br><br>
+<form action="https://formsubmit.co/amnausmani0512@gmail.com" method="post">
+<font  style="margin-right: 60px;" color="rgb(0, 25, 107);">Your name:</font>
+<input style="margin-right: 23px;" type="text" name="firstname"   placeholder="first name" size="18" required> 
+<input type="text" name="lastname" placeholder="last name" size="18" required> <br><br>
+<font style="margin-right: 60px;" color="rgb(0, 25, 107);">Your email:</font> 
+<input type="email" name="email" placeholder="e.g.hello@contact.net" size="45" required > <br><br>
+<font style="margin-right: 85px;"color="rgb(0, 25, 107);">Phone*:</font>
+<input style="margin-right: 5px;" type="text" placeholder="###" name="phone.no" size="9" required>&nbsp;&nbsp;&nbsp;&nbsp;
+<input style="margin-right:  6px;" type="text" placeholder="###" size="9">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" placeholder="###" size="9" ><br><br>
+<font style="margin-right: 30px;" color="rgb(0, 25, 107);">Message subject:</font> 
+<select style="width: 250px; height: 25px;" name="other" id="01" >
+<option value="other" >other</option>
+<option value="computer science">computer science</option>
+<option value="physics">physics</option>
+<option value="economics">econmoics</option>
+<option value="mathematics">mathematics</option>
+<option value="biology">biology</option>
+<option value="chemistry">chemistry</option>
+</select> <br><br>
+
+<div style=" align-items: center; display: flex;">
+      <label style="color: rgb(0, 25, 107);;  margin-right: 75px;">Message *</label>
+ 
+<textarea style="width: 350px;" name="feedback" id="01" rows="6"></textarea>  </div><br> 
+
+
+<div style="  align-items: center; display:flex">
+      <label style="color: rgb(0, 25, 107);;  margin-right: 55px;">Verification *</label>
+
+      <div style="background-color: white; width: 300px; height: 60px;  display: flex; align-items: center;">
+        <input type="checkbox" id="robotCheck" required style="width: 20px; height: 20px; margin-right: 10px;">
+        <label for="robotCheck" style="flex-grow: 1;">I'm not a robot</label>
+        <div style="width: 40px; height: 40px; background-image: url('/recaptcha-logo.jpg'); background-size: cover;"></div>
+      </div>
+    </div> <br>
+
+    <hr color="white" > <br>
+
+   <button style="border: 2px solid white; height: 40px; width: 130px; font-weight:bold; font-size:14px; color:rgb(0, 25, 107);; background-color:transparent; border-radius:5px; " type="submit">SUBMIT FORM</button>
+   </div>
+    
+
+</div>
+</div>
+
+</form>
+
+
+</body>
+</html>
